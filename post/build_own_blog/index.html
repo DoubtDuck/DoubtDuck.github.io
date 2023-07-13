@@ -1,90 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <title>Build_own_blog | ΓΝΩΘΙ ΣΑΥΤΟΝ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
-<meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="在 Windows 中安装 hugo 🔗 在 PowerShell 中键入 ::
+  <meta name="generator" content="Hugo 0.115.2">
+  <link rel="canonical" href="https://doubtduck.github.io/post/build_own_blog/">
+
+  
+    
+    <meta name="description" content="在 Windows 中安装 hugo 在 PowerShell 中键入 ::
 choco install hugo-extended
 安装完成后
 hugo version
 可以查看 hugo 的版本即为安装成功.
-使用hugo 新建初始博客模块 🔗 键入 &gt;
+使用hugo 新建初始博客模块 键入 &gt;
 hugo new site blog
 在本地文件夹内新建 blog 文件(可自定义文件名),但是 hugo 需要默认的样式文件，下载后放在指定的 themes 文件夹中
 git clone git@github.com:nodejh/hugo-theme-mini.git themes/mini
 可以看到 themes 文件夹中有 mini 文件夹，即下好的样式文件
-开始运行 🔗 hugo server -t mini &ndash;buildDrafts
+开始运行 hugo server -t mini –buildDrafts
 运行后根据上面生成的 mini 文件编译网站,mini 根据以上
-新建第一篇文章 🔗 hugo new post/build_own_blog.md
+新建第一篇文章 hugo new post/build_own_blog.md
 运行后网站就会出现 build_own_blog.md ，文件格式为markdown,可以修改下看看
-编译静态文件 🔗 hugo &ndash;theme=mini &ndash;baseURL=&ldquo;https://doubtduck.github.io/&#34; &ndash;buildDrafts">
-<meta name="generator" content="Hugo 0.115.2">
+编译静态文件 hugo –theme=mini –baseURL=“https://doubtduck.github.io/&#34; –buildDrafts">
+  
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
-  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <link rel="stylesheet" type="text/css" href="/css/paper.css">
 
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  
+  
+    
+  
 
-<link rel="stylesheet" href="/css/style.css">
-
-
-
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-
-
-
-
-
-
-
-  </head>
+  
+  
+  <title>Build_own_blog | Note_blog</title>
+</head>
 
   <body>
-    <nav class="navigation">
-	
-		<a href="/"> <span class="arrow">←</span>Home</a>
-	
-	<a href="/posts">Archive</a>
-	<a href="/tags">Tags</a>
-	<a href="/about">About</a>
-
-	
-
-	
-</nav>
-
-
-    <main class="main">
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">Note_blog</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
       
-
-<section id="single">
-    <h1 class="title">Build_own_blog</h1>
-
-    <div class="tip">
-        <time datetime="2023-07-13 10:07:10 &#43;0800 CST">Jul 13, 2023</time>
-        <span class="split">
-          ·
-        </span>
-        <span>
-          68 words
-        </span>
-        <span class="split">
-          ·
-        </span>
-        <span>
-          1 minute read
-        </span>
+      </ul>
     </div>
+  </div>
+</nav>
+      <main>
+        
 
-    
-    
+<h1 class="post-title">Build_own_blog</h1>
 
 
-    <div class="content">
-      <!-- raw HTML omitted -->
-<h3 id="在-windows-中安装-hugo">在 Windows 中安装 hugo <a href="#%e5%9c%a8-windows-%e4%b8%ad%e5%ae%89%e8%a3%85-hugo" class="anchor">🔗</a></h3><blockquote>
+<strong>Publish date: </strong>Jul 13, 2023
+<br>
+
+
+
+  
+
+
+
+<h3 id="在-windows-中安装-hugo">在 Windows 中安装 hugo</h3>
+<p><img src="C:%5CUsers%5Cuser%5CPictures%5C109702012_p0_master1200.jpg" alt=""></p>
+<blockquote>
 <p><strong>在 PowerShell 中键入 ::</strong></p>
 <p>choco install hugo-extended</p>
 </blockquote>
@@ -94,7 +99,8 @@ git clone git@github.com:nodejh/hugo-theme-mini.git themes/mini
 </blockquote>
 <p>可以查看 hugo 的版本即为安装成功.</p>
 <hr>
-<h3 id="使用hugo-新建初始博客模块">使用hugo 新建初始博客模块 <a href="#%e4%bd%bf%e7%94%a8hugo-%e6%96%b0%e5%bb%ba%e5%88%9d%e5%a7%8b%e5%8d%9a%e5%ae%a2%e6%a8%a1%e5%9d%97" class="anchor">🔗</a></h3><blockquote>
+<h3 id="使用hugo-新建初始博客模块">使用hugo 新建初始博客模块</h3>
+<blockquote>
 <p><strong>键入 &gt;</strong></p>
 <p>hugo new site blog</p>
 </blockquote>
@@ -104,58 +110,28 @@ git clone git@github.com:nodejh/hugo-theme-mini.git themes/mini
 <p>可以看到 themes 文件夹中有 mini 文件夹，即下好的样式文件</p>
 </blockquote>
 <hr>
-<h3 id="开始运行">开始运行 <a href="#%e5%bc%80%e5%a7%8b%e8%bf%90%e8%a1%8c" class="anchor">🔗</a></h3><blockquote>
+<h3 id="开始运行">开始运行</h3>
+<blockquote>
 <p>hugo server -t mini &ndash;buildDrafts</p>
 <p><em>运行后根据上面生成的 mini 文件编译网站,mini 根据以上</em></p>
 </blockquote>
 <hr>
-<h3 id="新建第一篇文章">新建第一篇文章 <a href="#%e6%96%b0%e5%bb%ba%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0" class="anchor">🔗</a></h3><blockquote>
+<h3 id="新建第一篇文章">新建第一篇文章</h3>
+<blockquote>
 <p>hugo new post/build_own_blog.md</p>
 <p>运行后网站就会出现 build_own_blog.md ，文件格式为markdown,可以修改下看看</p>
 </blockquote>
 <hr>
-<h2 id="编译静态文件">编译静态文件 <a href="#%e7%bc%96%e8%af%91%e9%9d%99%e6%80%81%e6%96%87%e4%bb%b6" class="anchor">🔗</a></h2><blockquote>
-<p>hugo &ndash;theme=mini &ndash;baseURL=&ldquo;<a href="https://doubtduck.github.io/%22" target="_blank" rel="noopener">https://doubtduck.github.io/"</a> &ndash;buildDrafts</p>
-<p><p class="markdown-image">
-  <img src="https://github.com/DoubtDuck/DoubtDuck.github.io/blob/main/images/hugo.png" alt=""  />
-</p></p>
+<h2 id="编译静态文件">编译静态文件</h2>
+<blockquote>
+<p>hugo &ndash;theme=mini &ndash;baseURL=&ldquo;<a href="https://doubtduck.github.io/%22">https://doubtduck.github.io/&quot;</a> &ndash;buildDrafts</p>
+<p><img src="https://github.com/DoubtDuck/DoubtDuck.github.io/blob/main/images/hugo.png" alt=""></p>
 </blockquote>
 
-    </div>
-
-    
-    
-    
-
-</section>
-
-
-    </main>
-    
-    <footer id="footer">
-    
-
-    <div class="copyright">
-    
-       © Copyright 
-       2023 
-       <span class="split">
-        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
-  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
-</svg>
-       </span>
-       
-    
-    </div>
-
-    
-      <div class="powerby">
-        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
-      </div>
-    
-</footer>
 
 
 
+      </main>
+  </div>
   </body>
 </html>

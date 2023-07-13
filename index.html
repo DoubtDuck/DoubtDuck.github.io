@@ -1,128 +1,99 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <title>ΓΝΩΘΙ ΣΑΥΤΟΝ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
-<meta name="viewport" content="width=device-width,minimum-scale=1">
-<meta name="description" content="">
-<meta name="generator" content="Hugo 0.115.2">
-
-
-  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-
-
-
-
-
+  <meta name="generator" content="Hugo 0.115.2">
+  <link rel="canonical" href="https://doubtduck.github.io/">
 
   
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="ΓΝΩΘΙ ΣΑΥΤΟΝ" />
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="ΓΝΩΘΙ ΣΑΥΤΟΝ" />
+    
   
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
-  </head>
+  <link rel="stylesheet" type="text/css" href="/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  
+  
+    
+  
+
+  
+  
+    
+  
+  <title>Note_blog</title>
+</head>
 
   <body>
-    <nav class="navigation">
-	
-	<a href="/posts">Archive</a>
-	<a href="/tags">Tags</a>
-	<a href="/about">About</a>
-
-	
-
-	
-</nav>
-
-
-    <main class="main">
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">Note_blog</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
       
-<header class="profile">
-    
-        <img class="avatar" alt="avatar" src="/images/avatar.png" />
-    
-
-    <h1>ΓΝΩΘΙ ΣΑΥΤΟΝ</h1>
-    
-    
-</header>
-
-<div id="list-page">
-    
-    
-    
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
         
-        
-        <section class="item">
-          <div>
-            <h1 class="title"><a href='/post/build_own_blog/'>Build_own_blog</a></h1>
-            <div class ="date">
-                <time datetime="2023-07-13 10:07:10 &#43;0800 CST">Jul 13, 2023</time>  
-            </div>
-          </div>
 
-          
-              <div class="summary">在 Windows 中安装 hugo 🔗 在 PowerShell 中键入 ::
+<h1>Note_blog</h1>
+
+
+
+
+  <h2 class="post-list summary">
+    <a href="/post/build_own_blog/">
+      Build_own_blog
+    </a>
+  </h2>
+  
+    在 Windows 中安装 hugo 在 PowerShell 中键入 ::
 choco install hugo-extended
 安装完成后
 hugo version
 可以查看 hugo 的版本即为安装成功.
-使用hugo 新建初始博客模块 🔗 键入 &gt;
+使用hugo 新建初始博客模块 键入 &gt;
 hugo new site blog
 在本地文件夹内新建 blog 文件(可自定义文件名),但是 hugo 需要默认的样式文件，下载后放在指定的 themes 文件夹中
 git clone git@github.com:nodejh/hugo-theme-mini.git themes/mini
 可以看到 themes 文件夹中有 mini 文件夹，即下好的样式文件
-开始运行 🔗 hugo server -t mini –buildDrafts
+开始运行 hugo server -t mini &ndash;buildDrafts
 运行后根据上面生成的 mini 文件编译网站,mini 根据以上
-新建第一篇文章 🔗 hugo new post/build_own_blog.md
+新建第一篇文章 hugo new post/build_own_blog.md
 运行后网站就会出现 build_own_blog.md ，文件格式为markdown,可以修改下看看
-编译静态文件 🔗 hugo –theme=mini –baseURL=“https://doubtduck.github.io/&#34; –buildDrafts</div>
-          
-
-        </section>
-    
-
-    
-
-
-</div>
-
-    </main>
-    
-    <footer id="footer">
-    
-
-    <div class="copyright">
-    
-       © Copyright 
-       2023 
-       <span class="split">
-        <svg fill="#bbbbbb" width="15" height="15" version="1.1" id="heart-15" xmlns="http://www.w3.org/2000/svg" width="15px" height="15px" viewBox="0 0 15 15">
-  <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z"/>
-</svg>
-       </span>
-       
-    
-    </div>
-
-    
-      <div class="powerby">
-        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
-      </div>
-    
-</footer>
+编译静态文件 hugo &ndash;theme=mini &ndash;baseURL=&ldquo;https://doubtduck.github.io/&quot; &ndash;buildDrafts
+  
 
 
 
+
+      </main>
+  </div>
   </body>
 </html>

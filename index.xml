@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ΓΝΩΘΙ ΣΑΥΤΟΝ</title>
+    <title>Note_blog</title>
     <link>https://doubtduck.github.io/</link>
-    <description>Recent content on ΓΝΩΘΙ ΣΑΥΤΟΝ</description>
+    <description>Recent content on Note_blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh</language>
     <lastBuildDate>Thu, 13 Jul 2023 10:07:10 +0800</lastBuildDate><atom:link href="https://doubtduck.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build_own_blog</title>
@@ -13,21 +13,21 @@
       <pubDate>Thu, 13 Jul 2023 10:07:10 +0800</pubDate>
       
       <guid>https://doubtduck.github.io/post/build_own_blog/</guid>
-      <description>在 Windows 中安装 hugo 🔗 在 PowerShell 中键入 ::
+      <description>在 Windows 中安装 hugo 在 PowerShell 中键入 ::
 choco install hugo-extended
 安装完成后
 hugo version
 可以查看 hugo 的版本即为安装成功.
-使用hugo 新建初始博客模块 🔗 键入 &amp;gt;
+使用hugo 新建初始博客模块 键入 &amp;gt;
 hugo new site blog
 在本地文件夹内新建 blog 文件(可自定义文件名),但是 hugo 需要默认的样式文件，下载后放在指定的 themes 文件夹中
 git clone git@github.com:nodejh/hugo-theme-mini.git themes/mini
 可以看到 themes 文件夹中有 mini 文件夹，即下好的样式文件
-开始运行 🔗 hugo server -t mini &amp;ndash;buildDrafts
+开始运行 hugo server -t mini &amp;ndash;buildDrafts
 运行后根据上面生成的 mini 文件编译网站,mini 根据以上
-新建第一篇文章 🔗 hugo new post/build_own_blog.md
+新建第一篇文章 hugo new post/build_own_blog.md
 运行后网站就会出现 build_own_blog.md ，文件格式为markdown,可以修改下看看
-编译静态文件 🔗 hugo &amp;ndash;theme=mini &amp;ndash;baseURL=&amp;ldquo;https://doubtduck.github.io/&#34; &amp;ndash;buildDrafts</description>
+编译静态文件 hugo &amp;ndash;theme=mini &amp;ndash;baseURL=&amp;ldquo;https://doubtduck.github.io/&amp;quot; &amp;ndash;buildDrafts</description>
     </item>
     
   </channel>
