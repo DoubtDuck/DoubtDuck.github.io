@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Note_blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 13 Jul 2023 10:07:10 +0800</lastBuildDate><atom:link href="https://doubtduck.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jul 2023 21:32:09 +0800</lastBuildDate><atom:link href="https://doubtduck.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add_tags</title>
+      <link>https://doubtduck.github.io/post/add_tags/</link>
+      <pubDate>Thu, 13 Jul 2023 21:32:09 +0800</pubDate>
+      
+      <guid>https://doubtduck.github.io/post/add_tags/</guid>
+      <description>给文章添加标签 &amp;raquo;
+测试文本 ==&amp;raquo; UP</description>
+    </item>
+    
     <item>
       <title>Build_own_blog</title>
       <link>https://doubtduck.github.io/post/build_own_blog/</link>
