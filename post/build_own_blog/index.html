@@ -74,7 +74,7 @@
 
 
 <h3 id="在-windows-中安装-hugo">在 Windows 中安装 hugo</h3>
-<p><img src="/neruo.jpg" alt=""></p>
+<p><img src="/neruo.png" alt=""></p>
 <blockquote>
 <p><strong>在 PowerShell 中键入 ::</strong></p>
 <p>choco install hugo-extended</p>
@@ -98,7 +98,7 @@
 <hr>
 <h3 id="开始运行">开始运行</h3>
 <blockquote>
-<p>hugo server -t mini &ndash;buildDrafts</p>
+<p>hugo server -t paper &ndash;buildDrafts</p>
 <p><em>运行后根据上面生成的 mini 文件编译网站,mini 根据以上</em></p>
 </blockquote>
 <hr>
@@ -110,8 +110,15 @@
 <hr>
 <h2 id="编译静态文件">编译静态文件</h2>
 <blockquote>
-<p>hugo &ndash;theme=mini &ndash;baseURL=&ldquo;<a href="https://doubtduck.github.io/%22">https://doubtduck.github.io/&quot;</a> &ndash;buildDrafts</p>
+<p>hugo &ndash;theme=paper &ndash;baseURL=&ldquo;<a href="https://doubtduck.github.io/%22">https://doubtduck.github.io/&quot;</a> &ndash;buildDrafts</p>
 <p><img src="/hugo.png" alt=""></p>
+</blockquote>
+<hr>
+<h3 id="备注-">备注 ::</h3>
+<p>插入图片的格式应为 &lsquo;<a href="/image.png"></a>&rsquo;,图片放在 static 文件夹中，并且格式为 .png 时正常显示</p>
+<p>使用 &ldquo;<!-- raw HTML omitted -->&rdquo; 可以对 读取的文章备注进行控制，放在开头就可以避免下面一堆文字&hellip;很不美观</p>
+<blockquote>
+<p>博客大致还是作自己的一个备份 cv 网址</p>
 </blockquote>
 
 
