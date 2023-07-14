@@ -5,16 +5,7 @@
     <loc>https://doubtduck.github.io/post/add_tags/</loc>
     <lastmod>2023-07-13T21:32:09+08:00</lastmod>
   </url><url>
-    <loc>https://doubtduck.github.io/tags/blog/</loc>
-    <lastmod>2023-07-13T21:32:09+08:00</lastmod>
-  </url><url>
-    <loc>https://doubtduck.github.io/tags/build/</loc>
-    <lastmod>2023-07-13T21:32:09+08:00</lastmod>
-  </url><url>
-    <loc>https://doubtduck.github.io/categories/</loc>
-    <lastmod>2023-07-13T21:32:09+08:00</lastmod>
-  </url><url>
-    <loc>https://doubtduck.github.io/categories/hugo/</loc>
+    <loc>https://doubtduck.github.io/tags/hugo_build/</loc>
     <lastmod>2023-07-13T21:32:09+08:00</lastmod>
   </url><url>
     <loc>https://doubtduck.github.io/</loc>
@@ -28,5 +19,7 @@
   </url><url>
     <loc>https://doubtduck.github.io/post/build_own_blog/</loc>
     <lastmod>2023-07-13T10:07:10+08:00</lastmod>
+  </url><url>
+    <loc>https://doubtduck.github.io/categories/</loc>
   </url>
 </urlset>
