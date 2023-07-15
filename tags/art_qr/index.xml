@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>art_qr on Note_blog</title>
+    <link>https://doubtduck.github.io/tags/art_qr/</link>
+    <description>Recent content in art_qr on Note_blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 15 Jul 2023 13:41:56 +0800</lastBuildDate><atom:link href="https://doubtduck.github.io/tags/art_qr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Art_code</title>
+      <link>https://doubtduck.github.io/post/art_code/</link>
+      <pubDate>Sat, 15 Jul 2023 13:41:56 +0800</pubDate>
+      
+      <guid>https://doubtduck.github.io/post/art_code/</guid>
+      <description>艺术二维码 https://www.qrcode1s.com/dashboard
+收费，但是有模板的快速生成网站，可以满足快速装逼的想法
+图片可以存在 gitub ，要可以拿到图片的链接
+discord 搜索服务器， Quick QR Art 进入以后
+在输入框键入 /
+然后把 Prompt 的内容填进去就行</description>
+    </item>
+    
+  </channel>
+</rss>
